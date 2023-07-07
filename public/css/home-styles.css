@@ -1,0 +1,257 @@
+* {
+    font-family: garamond serif;
+}
+
+/*     NAV      */
+
+.navTitle {
+    text-align: center;
+    font-family: garamond serif;
+    font-size: 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*         FOOTER         */
+
+footer{
+    background-color: lightgrey;
+    color: slategrey;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.links-wrapper{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 13px;
+}
+
+.links-wrapper h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.link-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.link-list li{
+    list-style: none;
+}
+
+.link-list a{
+    color: slategrey;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-links li{
+    list-style: none;
+    font-size: 20px;
+    margin: 1rem;
+    color: slategrey;
+}
+
+.fineprint{
+    text-align: center;
+}
+
+/*      HOME PAGE - Hero      */
+
+.homeHero {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    height: 600px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7) ),  url('/images/contact-img1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.homeHero p {
+    font-size: 16px;
+}
+
+.homeHero button {
+    align-self: center;
+    width: 4rem;
+}
+
+/*      HOME PAGE - About      */
+
+.homeAbout {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.aboutSectionImage {
+    width: 620px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.aboutSectionImage img {
+    max-width: 100%;
+    max-height: 700px;
+}
+
+.aboutSectionText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width: 620px;
+}
+
+.aboutSectionText h1 {
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+
+.aboutSectionText p {
+    font-size: 16px;
+    text-indent: 20px;
+}
+
+.aboutSectionText button {
+    align-self: center;
+    width: 10rem;
+}
+
+/*      HOME PAGE - Conductors     */
+
+.homeConductors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.homeConductor1 {
+    width: 380px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    object-position: -50% 0;
+}
+
+.homeConductor2 {
+    max-width: 550px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.homeConductor3 {
+    width: 380px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/*      HOME PAGE - Subcription      */
+
+.homeSubscribeSection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.homeSubscriptionAbout{
+    min-height: 330px;
+}
+
+.homeSubscriptionAbout h1{
+    text-align: center;
+}
+
+.homeSubscriptionAbout h3{
+    text-align: center;
+}
+
+.homeConductorSubscription {
+    width: 50%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.homePresenterSubscription {
+    width: 50%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.homeFee {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 2rem;
+}
+
+.subscriptionButton {
+    display: flex;
+    justify-content: center;
+}
+
+/*       HOME - IMAGES        */
+
+.homeImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: darkgrey;
+    padding: 8rem 4rem;
+    margin: 20rem 0rem;
+
+}
+
+.homeImage {
+    width: auto;
+    height: 200px;
+    margin: 1rem;
+}
+
